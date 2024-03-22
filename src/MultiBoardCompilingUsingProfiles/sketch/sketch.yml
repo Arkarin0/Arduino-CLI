@@ -1,0 +1,18 @@
+profiles:
+  Mega:
+    notes: This is the Configuration for the Arduino Mega2560
+    fqbn: arduino:avr:mega
+    platforms:
+      - platform: arduino:avr (1.8.6)
+  Teensy41:
+    notes: This is the Configuration for the Teensy 4.1
+    fqbn: teensy:avr:teensy41:speed=150
+    platforms:
+      - platform: teensy:avr (1.59.0)
+        platform_index_url: https://www.pjrc.com/teensy/package_teensy_index.json
+  Teensy36:
+    notes: This is the Configuration for the Teensy 3.6
+    fqbn: teensy:avr:teensy36:speed=72
+    platforms:
+      - platform: teensy:avr (1.59.0)
+        platform_index_url: https://www.pjrc.com/teensy/package_teensy_index.json
